@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 
-# looks for .env in the current directory
+# looks for .env in the main directory
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '../config/.env'))  
 
 
-#Set up the Spotify client
+# Set up the Spotify client
 sp = spotipy.Spotify(
         auth_manager=
             SpotifyOAuth(
