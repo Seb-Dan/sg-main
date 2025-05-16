@@ -2,7 +2,7 @@ import sys
 import os
 from dotenv import load_dotenv
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from ingest_01 import ingest
+from py_ingest_01 import ingest
 from sqlalchemy import create_engine
 
 # looks for .env in the main directory
