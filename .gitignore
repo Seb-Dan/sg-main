@@ -1,5 +1,5 @@
 **/.env
 **/.cache
-**/idea
-**/recently_played.csv
+idea
+recently_played.csv
 **/__pycache__/**
