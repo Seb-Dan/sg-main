@@ -1,0 +1,84 @@
+/* Base background and text */
+body, .ajs-message, .ajs-dialog, .pgadmin-control-panel {
+    background-color: #1e1e1e !important;
+    color: #cccccc !important;
+}
+
+/* Nav bar and menu */
+.navbar, .navbar-inverse {
+    background-color: #2d2d2d !important;
+    border-color: #222 !important;
+}
+
+.navbar a, .navbar-inverse a, .navbar-brand, .nav > li > a {
+    color: #ccc !important;
+}
+
+/* Left tree panel */
+.pg-tree, .pg-tree ul, .pg-tree li {
+    background-color: #1e1e1e !important;
+    color: #ccc !important;
+}
+
+/* Tabs and tab headers */
+.nav-tabs > li > a {
+    background-color: #2d2d2d !important;
+    color: #ccc !important;
+    border: 1px solid #444 !important;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    background-color: #1e1e1e !important;
+    color: #fff !important;
+}
+
+/* Query editor */
+.CodeMirror {
+    background: #1e1e1e !important;
+    color: #f8f8f2 !important;
+}
+
+.CodeMirror-gutters {
+    background: #2e2e2e !important;
+    border-right: 1px solid #444 !important;
+    color: #888 !important;
+}
+
+/* Result grid */
+.slick-header, .slick-row {
+    background-color: #2d2d2d !important;
+    color: #ccc !important;
+}
+
+.slick-cell {
+    background-color: #1e1e1e !important;
+    border-color: #444 !important;
+    color: #ccc !important;
+}
+
+/* Buttons */
+.btn, .btn-default {
+    background-color: #333 !important;
+    border-color: #444 !important;
+    color: #ccc !important;
+}
+
+.btn:hover {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
