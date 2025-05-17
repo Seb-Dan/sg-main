@@ -23,7 +23,7 @@ print(f"Number of rows: {len(ingest.df)}")
 
 # Check if the DataFrame is not empty
 try:
-    ingest.df.to_sql("spotify_plays", engine, if_exists="append", index=False)
+    ingest.df.to_sql("spotify_plays", engine, if_exists="append", index=False, method="postgresql", on_conflict="ignore")
     print("Data written to database.")
 # Check if the data is written successfully
 except Exception as e:
