@@ -3,3 +3,4 @@
 .idea
 recently_played.csv
 **/__pycache__/**
+**/log.txt

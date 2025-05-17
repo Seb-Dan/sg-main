@@ -3,6 +3,7 @@ from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import sys
 
 # looks for .env in the main directory
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '../config/.env'))  
@@ -34,7 +35,7 @@ data = [
     for item in results['items']
 ]
 
-print(data)
+print(str(data).encode(sys.stdout.encoding, errors='replace').decode(sys.stdout.encoding))
 
 df = pd.DataFrame(data)
 
